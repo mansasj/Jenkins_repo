@@ -1,0 +1,22 @@
+Started by GitHub push by mansasj
+Running as SYSTEM
+Building remotely on [8mha:////4O9cZSmPfrawx+Yb5vBa8AS6zSdq10SBaQUQ4HhM770dAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAwOoBn6yfm5BaUlqUX6wTmJZam6BoYAt39M38cAAAA=[0mSlave-01 (Java) in workspace /home/jenkins-slave-01/workspace/SampleDeployJob
+No credentials specified
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/mansasj/remote.git # timeout=10
+Fetching upstream changes from https://github.com/mansasj/remote.git
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/mansasj/remote.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision a09e886acaab0d8fdd951fb4b80e3a21852bf8c3 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f a09e886acaab0d8fdd951fb4b80e3a21852bf8c3
+Commit message: "Update fact.c"
+ > git rev-list --no-walk 5a48f912cb393f3c8049fccd151a237b7613cdc3 # timeout=10
+[SampleDeployJob] $ /bin/sh -xe /tmp/jenkins787013415304848969.sh
++ cd /home/ec2-user/workspace/SampleDeployJob
+/tmp/jenkins787013415304848969.sh: line 2: cd: /home/ec2-user/workspace/SampleDeployJob: No such file or directory
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

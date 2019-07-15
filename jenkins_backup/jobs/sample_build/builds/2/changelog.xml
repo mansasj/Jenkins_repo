@@ -1,0 +1,11 @@
+commit b60bced6d0e6ee73627f3d0bddf5d466fa492ad7
+tree 1b810e466534ff2522576988f60b4f1b5fee82ae
+parent 92a4626373cc8665639ce6ca854a781f7bdb4b6f
+author mansasj <45938587+mansasj@users.noreply.github.com> 2019-07-13 21:17:16 +0530
+committer GitHub <noreply@github.com> 2019-07-13 21:17:16 +0530
+
+    Update fact.c
+
+    modidfied line
+
+:100644 100644 296503e7a045df52fe06293c9f530d3665f2304e b0fd162e52a822e25f31d63106fab0c985f3ed1b M	fact.c

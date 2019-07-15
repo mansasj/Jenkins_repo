@@ -1,0 +1,33 @@
+commit 5a48f912cb393f3c8049fccd151a237b7613cdc3
+tree 419ef0460bc21aad46cf318cd5039fcd270d0716
+parent ebc8a071f1a8eb8cde30e1903fa0a035f33d66dd
+author mansasj <45938587+mansasj@users.noreply.github.com> 2019-07-13 21:21:09 +0530
+committer GitHub <noreply@github.com> 2019-07-13 21:21:09 +0530
+
+    Update fact.c
+
+    content changed
+
+:100644 100644 fff45302ddcaddf64bd8e07382e10671c9b296d9 c592fca388afa94ba2568c7eb8248cb3bb04d552 M	fact.c
+commit ebc8a071f1a8eb8cde30e1903fa0a035f33d66dd
+tree 0c00dcb7febe39097cda33fa5ec5fcd8cb9bdb49
+parent b60bced6d0e6ee73627f3d0bddf5d466fa492ad7
+author mansasj <45938587+mansasj@users.noreply.github.com> 2019-07-13 21:18:53 +0530
+committer GitHub <noreply@github.com> 2019-07-13 21:18:53 +0530
+
+    Update fact.c
+
+    modified content
+
+:100644 100644 b0fd162e52a822e25f31d63106fab0c985f3ed1b fff45302ddcaddf64bd8e07382e10671c9b296d9 M	fact.c
+commit b60bced6d0e6ee73627f3d0bddf5d466fa492ad7
+tree 1b810e466534ff2522576988f60b4f1b5fee82ae
+parent 92a4626373cc8665639ce6ca854a781f7bdb4b6f
+author mansasj <45938587+mansasj@users.noreply.github.com> 2019-07-13 21:17:16 +0530
+committer GitHub <noreply@github.com> 2019-07-13 21:17:16 +0530
+
+    Update fact.c
+
+    modidfied line
+
+:100644 100644 296503e7a045df52fe06293c9f530d3665f2304e b0fd162e52a822e25f31d63106fab0c985f3ed1b M	fact.c

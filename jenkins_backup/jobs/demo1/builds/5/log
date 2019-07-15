@@ -1,0 +1,59 @@
+Started by user [8mha:////4BoQorGL3WN50irJWoqvPRHEQ5ZQ6RKa0CnMSDhssnr3AAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgZu/dLi1CL9xJTczDwA9svhPMAAAAA=[0mManasa
+Running as SYSTEM
+Building on master in workspace /var/lib/jenkins/workspace/demo1
+No credentials specified
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/mansasj/remote.git # timeout=10
+Fetching upstream changes from https://github.com/mansasj/remote.git
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/mansasj/remote.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 350c36298c846836d2904f98a361e9f9b8bcf49b (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 350c36298c846836d2904f98a361e9f9b8bcf49b
+Commit message: "Update makefile"
+ > git rev-list --no-walk 350c36298c846836d2904f98a361e9f9b8bcf49b # timeout=10
+Checking for pre-build
+Executing pre-build step
+Checking if email needs to be generated
+No emails were triggered.
+[demo1] $ /bin/sh -xe /tmp/jenkins7251004720810604613.sh
++ cd /var/lib/jenkins/workspace/demo1
++ make
+make: 'ABC.exe' is up to date.
+Checking for post-build
+Performing post-build step
+Checking if email needs to be generated
+Email was triggered for: Always
+Sending email for trigger: Always
+messageContentType = text/plain; charset=UTF-8
+  Collecting change authors...
+    build: 5
+Adding recipients from project recipient list
+Analyzing: manasasjk@gmail.com
+Looking for: manasasjk@gmail.com
+	starting at: 0
+	firstFoundIdx: 0
+	firstFoundIdx-substring: manasasjk@gmail.com
+	=> found type: 0
+Analyzing: manasasjk@gmail.com
+Looking for: manasasjk@gmail.com
+	starting at: 0
+	firstFoundIdx: 0
+	firstFoundIdx-substring: manasasjk@gmail.com
+	=> found type: 0
+Analyzing: manasasjk@gmail.com
+Looking for: manasasjk@gmail.com
+	starting at: 0
+	firstFoundIdx: 0
+	firstFoundIdx-substring: manasasjk@gmail.com
+	=> found type: 0
+Adding recipients from trigger recipient list
+Successfully created MimeMessage
+Sending email to: manasasjk@gmail.com
+Error sending to the following VALID addresses: manasasjk@gmail.com
+SendFailedException message: 530 5.7.0 Must issue a STARTTLS command first. t19sm10297775iog.41 - gsmtp
+
+Finished: SUCCESS

@@ -1,0 +1,12 @@
+Started at Sat Jul 13 11:29:07 UTC 2019
+Checking Build1
+Checking demo1
+Checking job2
+Checking maven-helloworld
+Checking SampleBuildJob
+Checking SampleDeployJob
+Checking SampleTestJob
+Checking samplle1
+Checking slavejob
+Checking slavejobtest
+Finished at Sat Jul 13 11:29:07 UTC 2019. 146ms

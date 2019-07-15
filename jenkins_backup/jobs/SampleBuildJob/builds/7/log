@@ -1,0 +1,24 @@
+Started by GitHub push by mansasj
+Running as SYSTEM
+Building on master in workspace /var/lib/jenkins/workspace/SampleBuildJob
+No credentials specified
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/mansasj/remote # timeout=10
+Fetching upstream changes from https://github.com/mansasj/remote
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/mansasj/remote +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 92a4626373cc8665639ce6ca854a781f7bdb4b6f (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 92a4626373cc8665639ce6ca854a781f7bdb4b6f
+Commit message: "Update big3.c"
+ > git rev-list --no-walk de7b446469cee90405a3194954c827e2728a8571 # timeout=10
+[SampleBuildJob] $ /bin/sh -xe /tmp/jenkins9117336759726302333.sh
++ cd /var/lib/jenkins/workspace/SampleBuildJob
++ make
+cc    -c -o big3.o big3.c
+gcc -o ABC.exe main.o big3.o fact.o palin.o
+Triggering a new build of [8mha:////4G76zSz7c0Pk+dLEDRLAh5nMcASkwpqAkiUt9DI12i5NAAAAoB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz+EgZR/az8JP3gxNyCnFSX1IKc/EovIB8AUjFjYMoAAAA=[0mSampleDeployJob
+Finished: SUCCESS

@@ -1,0 +1,24 @@
+Started by GitHub push by mansasj
+Running as SYSTEM
+Building remotely on [8mha:////4O9cZSmPfrawx+Yb5vBa8AS6zSdq10SBaQUQ4HhM770dAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAwOoBn6yfm5BaUlqUX6wTmJZam6BoYAt39M38cAAAA=[0mSlave-01 (Java) in workspace /home/jenkins-slave-01/workspace/sample_build
+using credential 31709161-f310-4dea-8eb2-389328d8ec7f
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/mansasj/remote.git # timeout=10
+Fetching upstream changes from https://github.com/mansasj/remote.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --progress https://github.com/mansasj/remote.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 50d12acc38eaf8acb7bfd236a0ef73bf0cde4d33 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 50d12acc38eaf8acb7bfd236a0ef73bf0cde4d33
+Commit message: "Update fact.c"
+ > git rev-list --no-walk a09e886acaab0d8fdd951fb4b80e3a21852bf8c3 # timeout=10
+[sample_build] $ /bin/sh -xe /tmp/jenkins5571836162582878217.sh
++ cd /home/jenkins-slave-01/workspace/sample_build
++ make
+gcc -c fact.c
+gcc -o ABC.exe main.o big3.o fact.o palin.o
+Finished: SUCCESS

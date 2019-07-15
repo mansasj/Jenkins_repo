@@ -1,0 +1,21 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2019-07-13 14:55:18.528 UTC</timestamp>
+  <md5sum>6c84d29cb4a49abb60caa0781aae8be1</md5sum>
+  <fileName>Credential id=31709161-f310-4dea-8eb2-389328d8ec7f name=mansasj/******</fileName>
+  <usages>
+    <entry>
+      <string>sample_build</string>
+      <ranges>1-6</ranges>
+    </entry>
+    <entry>
+      <string>SampleBuildJob</string>
+      <ranges>9-11</ranges>
+    </entry>
+    <entry>
+      <string>SampleDeployJob</string>
+      <ranges>11-12</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

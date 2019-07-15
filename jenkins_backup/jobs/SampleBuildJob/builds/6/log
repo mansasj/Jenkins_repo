@@ -1,0 +1,42 @@
+Started by GitHub push by mansasj
+Running as SYSTEM
+Building on master in workspace /var/lib/jenkins/workspace/SampleBuildJob
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/mansasj/remote
+ > git init /var/lib/jenkins/workspace/SampleBuildJob # timeout=10
+Fetching upstream changes from https://github.com/mansasj/remote
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/mansasj/remote +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url https://github.com/mansasj/remote # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/mansasj/remote # timeout=10
+Fetching upstream changes from https://github.com/mansasj/remote
+ > git fetch --tags --progress https://github.com/mansasj/remote +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision de7b446469cee90405a3194954c827e2728a8571 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f de7b446469cee90405a3194954c827e2728a8571
+Commit message: "Update big3.c"
+First time build. Skipping changelog.
+[SampleBuildJob] $ /bin/sh -xe /tmp/jenkins7819599700191330782.sh
++ cd /var/lib/jenkins/workspace/SampleBuildJob
++ make
+gcc -c main.c
+main.c: In function ‘main’:
+main.c:3:1: warning: implicit declaration of function ‘fact’ [-Wimplicit-function-declaration]
+ fact();
+ ^~~~
+main.c:4:1: warning: implicit declaration of function ‘big’ [-Wimplicit-function-declaration]
+ big();
+ ^~~
+main.c:5:1: warning: implicit declaration of function ‘palindrome’ [-Wimplicit-function-declaration]
+ palindrome();
+ ^~~~~~~~~~
+cc    -c -o big3.o big3.c
+gcc -c fact.c
+gcc -c palin.c
+gcc -o ABC.exe main.o big3.o fact.o palin.o
+Triggering a new build of [8mha:////4G76zSz7c0Pk+dLEDRLAh5nMcASkwpqAkiUt9DI12i5NAAAAoB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz+EgZR/az8JP3gxNyCnFSX1IKc/EovIB8AUjFjYMoAAAA=[0mSampleDeployJob
+Finished: SUCCESS

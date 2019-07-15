@@ -1,0 +1,7 @@
+Started by user [8mha:////4BoQorGL3WN50irJWoqvPRHEQ5ZQ6RKa0CnMSDhssnr3AAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgZu/dLi1CL9xJTczDwA9svhPMAAAAA=[0mManasa
+Running as SYSTEM
+Building on master in workspace /var/lib/jenkins/workspace/samplle1
+[samplle1] $ /bin/sh -xe /tmp/jenkins7883468533315628812.sh
++ echo 'to check slave machine'
+to check slave machine
+Finished: SUCCESS

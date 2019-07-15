@@ -1,0 +1,11 @@
+Started by upstream project "[8mha:////4CAEGnclVl26woo0R8AG5mGngR+SAM7elaiKPXDAirbpAAAAnx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy+EgYR/az8JP3gxNyCnFSn0sycFC8gFwCmIcYpyQAAAA==[0mSampleBuildJob" build number [8mha:////4Dp/5lPHi/g3X5LQQG3vc8ehYO1+i5zN97t/Y0pG7sCLAAAAnx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBlH9rPwk/eDE3IKcVKfSzJwULyDXCAAudTrQygAAAA==[0m2
+originally caused by:
+ Started by user [8mha:////4BoQorGL3WN50irJWoqvPRHEQ5ZQ6RKa0CnMSDhssnr3AAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgZu/dLi1CL9xJTczDwA9svhPMAAAAA=[0mManasa
+Running as SYSTEM
+Building on master in workspace /var/lib/jenkins/workspace/SampleDeployJob
+[SampleDeployJob] $ /bin/sh -xe /tmp/jenkins2034999254375399716.sh
++ date
+Sat Jul 13 09:54:34 UTC 2019
++ echo 'Deploy job completed succesfully'
+Deploy job completed succesfully
+Finished: SUCCESS
